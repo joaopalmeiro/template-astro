@@ -11,6 +11,9 @@
   - https://github.com/withastro/astro/blob/astro%404.6.0/prettier.config.js
   - https://github.com/withastro/prettier-plugin-astro/blob/v0.13.0/.prettierrc.json
   - https://github.com/withastro/starlight/blob/%40astrojs/starlight%400.21.5/.prettierrc
+  - https://prettier.io/docs/en/configuration#basic-configuration
+  - https://prettier.io/docs/en/configuration#sharing-configurations
+  - https://github.com/will-stone/prettier-config/blob/v7.0.3/package.json#L20: `"dependencies": { "prettier-plugin-packagejson": "^2.4.6" }`
 - https://docs.astro.build/en/concepts/why-astro/#easy-to-use:
   - "The `.astro` UI language is a superset of HTML: any valid HTML is valid Astro templating syntax!"
 - https://docs.astro.build/en/concepts/islands/:
