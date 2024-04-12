@@ -14,6 +14,8 @@
   - https://prettier.io/docs/en/configuration#basic-configuration
   - https://prettier.io/docs/en/configuration#sharing-configurations
   - https://github.com/will-stone/prettier-config/blob/v7.0.3/package.json#L20: `"dependencies": { "prettier-plugin-packagejson": "^2.4.6" }`
+  - https://github.com/shun-shobon/configs/blob/prettier-config-v0.3.1/packages/prettier-config/package.json#L37: `"dependencies": { "local-pkg": "^0.5.0", "prettier-plugin-astro": "^0.13.0", "prettier-plugin-jsdoc": "^1.3.0", "prettier-plugin-pkg": "^0.18.1", "prettier-plugin-tailwindcss": "^0.5.11" }`
+  - https://github.com/prettier/prettier/issues/12701: "When using pnpm, one has to use require.resolve or import.meta.resolve in the .prettierrc.js configuration to resolve plugins."
 - https://docs.astro.build/en/concepts/why-astro/#easy-to-use:
   - "The `.astro` UI language is a superset of HTML: any valid HTML is valid Astro templating syntax!"
 - https://docs.astro.build/en/concepts/islands/:
@@ -52,6 +54,7 @@
 - https://biomejs.dev/internals/language-support/
 - https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file: `eslint.config.mjs`
 - https://github.com/es-tooling/eslint-plugin-depend/blob/main/src/replacements.ts
+- https://openjsf.org/blog/node-js-20-now-available: "`import.meta.resolve()` makes it easier to write scripts which are not sensitive to their exact location, or to the web application's module setup."
 
 ## Commands
 
