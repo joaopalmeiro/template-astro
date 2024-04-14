@@ -1,6 +1,8 @@
 # Template Notes
 
 - https://github.com/withastro/astro/tree/main/examples/minimal
+- https://github.com/withastro/astro/releases
+- https://github.com/eslint/config-inspector/releases
 - https://ota-meshi.github.io/eslint-plugin-astro/user-guide/
   - https://ota-meshi.github.io/eslint-plugin-astro/rules/
   - https://github.com/ota-meshi/eslint-plugin-astro/blob/v0.34.0/src/configs/flat/recommended.ts
@@ -64,4 +66,30 @@ npm create astro@latest -- --template minimal
 
 ```bash
 npm create astro@latest -- minimal-demo --template minimal --no-install --no-git --typescript strictest
+```
+
+## Snippets
+
+### `.prettierrc.mjs` file
+
+```js
+// @ts-check
+
+/** @type {import("prettier").Config} */
+export default {
+  printWidth: 100,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
+  plugins: ['prettier-plugin-astro'],
+  overrides: [
+    {
+      files: '*.astro',
+      options: {
+        parser: 'astro',
+      },
+    },
+  ],
+};
 ```
