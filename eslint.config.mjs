@@ -2,7 +2,7 @@
 
 import eslintPluginAstro from 'eslint-plugin-astro';
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   ...eslintPluginAstro.configs['flat/base'],
   {
