@@ -8,13 +8,7 @@ Opinionated [Astro](https://astro.build/) template for new projects.
 2. Get the template files:
 
 ```bash
-npx degit github:joaopalmeiro/template-astro
-```
-
-or
-
-```bash
-npx degit github:joaopalmeiro/template-astro --force
+npx giget github:joaopalmeiro/template-astro . --force
 ```
 
 3. Search for `template-astro` and replace it with the project name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.

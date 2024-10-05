@@ -12,7 +12,8 @@
   "type": "module",
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "build": "run-s lint:check build:astro",
+    "build:astro": "astro build",
     "check:eslintConfig": "eslint-config-inspector",
     "check:prettier": "prettier . --check --log-level debug",
     "dev": "astro dev",
@@ -22,14 +23,15 @@
     "format:pkgJson": "sort-package-json",
     "lint": "run-s lint:pkgJson lint:astro lint:code",
     "lint:astro": "eslint .",
+    "lint:check": "astro check",
     "lint:code": "prettier . --check",
     "lint:pkgJson": "sort-package-json --check",
     "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/check": "0.5.10",
-    "astro": "4.6.1",
-    "typescript": "5.4.5"
+    "@astrojs/check": "0.9.4",
+    "astro": "4.15.11",
+    "typescript": "5.6.2"
   },
   "devDependencies": {
     "@eslint/config-inspector": "0.4.6",

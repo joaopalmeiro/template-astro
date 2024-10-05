@@ -20,3 +20,7 @@ npm-run-all2 \
 prettier \
 sort-package-json
 ```
+
+```bash
+rm -rf node_modules/ && npm install
+```

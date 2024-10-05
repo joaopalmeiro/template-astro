@@ -58,6 +58,7 @@
 - https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file: `eslint.config.mjs`
 - https://github.com/es-tooling/eslint-plugin-depend/blob/main/src/replacements.ts
 - https://openjsf.org/blog/node-js-20-now-available: "`import.meta.resolve()` makes it easier to write scripts which are not sensitive to their exact location, or to the web application's module setup."
+- https://www.npmjs.com/package/bundle-require
 
 ## Commands
 
@@ -67,6 +68,18 @@ npm create astro@latest -- --template minimal
 
 ```bash
 npm create astro@latest -- minimal-demo --template minimal --no-install --no-git --typescript strictest
+```
+
+```bash
+rm -rf .astro/ dist/ minimal-demo/ node_modules/
+```
+
+```bash
+npx degit github:joaopalmeiro/template-astro
+```
+
+```bash
+npx degit github:joaopalmeiro/template-astro --force
 ```
 
 ## Snippets
