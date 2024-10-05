@@ -17,7 +17,7 @@ or
 npx degit github:joaopalmeiro/template-astro --force
 ```
 
-3. Search for `template-astro` and replace it with the project name.
+3. Search for `template-astro` and replace it with the project name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.
 4. Search for `Opinionated Astro template for new projects.`/`Opinionated [Astro](https://astro.build/) template for new projects.` and replace it with the (short) project description.
 5. Search for `João Palmeiro` and replace it with the author's name.
 6. Search for `joaopalmeiro@proton.me` and replace it with the author's email address.
