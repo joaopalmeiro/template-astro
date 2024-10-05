@@ -6,6 +6,7 @@
 - https://ota-meshi.github.io/eslint-plugin-astro/user-guide/
   - https://ota-meshi.github.io/eslint-plugin-astro/rules/
   - https://github.com/ota-meshi/eslint-plugin-astro/blob/v0.34.0/src/configs/flat/recommended.ts
+  - https://github.com/ota-meshi/eslint-plugin-astro?tab=readme-ov-file#configuration
 - https://docs.astro.build/en/editor-setup/#prettier
   - https://github.com/withastro/prettier-plugin-astro
   - https://prettier.io/docs/en/cli.html
