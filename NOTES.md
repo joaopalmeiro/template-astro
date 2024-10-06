@@ -12,7 +12,6 @@ typescript \
 && npm install -D \
 @eslint/config-inspector \
 @joaopalmeiro/prettier-astro-config \
-@types/eslint \
 @typescript-eslint/parser \
 eslint \
 eslint-plugin-astro \

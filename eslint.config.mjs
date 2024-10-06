@@ -2,9 +2,9 @@
 
 import eslintPluginAstro from 'eslint-plugin-astro';
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
-  ...eslintPluginAstro.configs['flat/base'],
+  ...eslintPluginAstro.configs.base,
   {
     rules: {
       'astro/missing-client-only-directive-value': 'error',
@@ -13,6 +13,7 @@ export default [
       'astro/no-deprecated-astro-fetchcontent': 'error',
       'astro/no-deprecated-astro-resolve': 'error',
       'astro/no-deprecated-getentrybyslug': 'error',
+      'astro/no-exports-from-components': 'error',
       'astro/no-unused-define-vars-in-style': 'error',
       'astro/valid-compile': 'error',
       'astro/no-set-html-directive': 'error',

@@ -7,6 +7,11 @@
   - https://ota-meshi.github.io/eslint-plugin-astro/rules/
   - https://github.com/ota-meshi/eslint-plugin-astro/blob/v0.34.0/src/configs/flat/recommended.ts
   - https://github.com/ota-meshi/eslint-plugin-astro?tab=readme-ov-file#configuration
+  - https://github.com/ota-meshi/eslint-plugin-astro/releases
+  - https://github.com/ota-meshi/eslint-plugin-astro/releases/tag/v1.2.4:
+    - https://github.com/ota-meshi/eslint-plugin-astro/blob/v1.2.4/package.json#L76
+    - https://github.com/ota-meshi/eslint-plugin-astro/blob/v1.2.4/src/configs/has-typescript-eslint-parser.ts
+  - https://ota-meshi.github.io/eslint-plugin-astro/user-guide/#-usage
 - https://docs.astro.build/en/editor-setup/#prettier
   - https://github.com/withastro/prettier-plugin-astro
   - https://prettier.io/docs/en/cli.html
@@ -59,6 +64,7 @@
 - https://github.com/es-tooling/eslint-plugin-depend/blob/main/src/replacements.ts
 - https://openjsf.org/blog/node-js-20-now-available: "`import.meta.resolve()` makes it easier to write scripts which are not sensitive to their exact location, or to the web application's module setup."
 - https://www.npmjs.com/package/bundle-require
+- https://eslint.org/blog/2024/09/eslint-v9.10.0-released/
 
 ## Commands
 
